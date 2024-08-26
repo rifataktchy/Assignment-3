@@ -24,6 +24,7 @@
                 secondary: 'rgba(171, 239, 95, 0.5)',
                 another: 'rgba(171, 239, 95, 0.2)',
               }
+            
             }
           }
         }
@@ -36,54 +37,55 @@
 </head>
 <body class="font-manrope">
 <!-- Header Section -->
+<header class="bg-gradient-to-b from-gray-100 to-white">
   <div class="navbar w-11/12 mx-auto">
-    <div class="navbar-start">
-      <div class="bg-primary rounded-full h-6 w-6 text-center"><i class="fa-solid fa-arrow-up rotate-45"></i></div>
-        <h2 class="pl-1 text-3xl font-bold">Rinterio</h2>
-    </div>
-    <div class="navbar-center hidden lg:flex">
-          <ul class="flex items-center gap-8 px-1 text-base">
-            <li class="hover:font-extrabold bg-white cursor-pointer"><a>Home</a></li>
-            <li class="hover:font-extrabold hover:bg-white cursor-pointer"><a>Services</a></li>
-            <li class="hover:font-extrabold hover:bg-white cursor-pointer"><a>Portfolio</a></li>
-            <li class="hover:font-extrabold hover:bg-white cursor-pointer"><a>Blog</a></li>
-            <li class="hover:font-extrabold hover:bg-white cursor-pointer"><a>Contact Us</a></li>
-          </ul>
-    </div>
-    <div class="navbar-end flex-row gap-4">
-        <div class="dropdown">
-          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M4 6h16M4 12h8m-8 6h16" />
-            </svg>
+      <div class="navbar-start">
+        <div class="bg-primary rounded-full h-6 w-6 text-center"><i class="fa-solid fa-arrow-up rotate-45"></i></div>
+          <h2 class="pl-1 text-3xl font-bold">Rinterio</h2>
+      </div>
+      <div class="navbar-center hidden lg:flex">
+            <ul class="flex items-center gap-8 px-1 text-base">
+              <li class="hover:font-extrabold bg-white cursor-pointer"><a>Home</a></li>
+              <li class="hover:font-extrabold hover:bg-white cursor-pointer"><a>Services</a></li>
+              <li class="hover:font-extrabold hover:bg-white cursor-pointer"><a>Portfolio</a></li>
+              <li class="hover:font-extrabold hover:bg-white cursor-pointer"><a>Blog</a></li>
+              <li class="hover:font-extrabold hover:bg-white cursor-pointer"><a>Contact Us</a></li>
+            </ul>
+      </div>
+      <div class="navbar-end flex-row gap-4">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </div>
+            <ul tabindex="0" class="dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-32 right-0">
+              <li class="hover:font-extrabold hover:bg-white cursor-pointer"><a>Home</a></li>
+              <li class="hover:font-extrabold hover:bg-white cursor-pointer"><a>Services</a></li>
+              <li class="hover:font-extrabold hover:bg-white cursor-pointer"><a>Portfolio</a></li>
+              <li class="hover:font-extrabold hover:bg-white cursor-pointer"><a>Blog</a></li>
+              <li class="hover:font-extrabold hover:bg-white cursor-pointer"><a>Contact Us</a></li>
+            </ul>
           </div>
-          <ul tabindex="0" class="dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-32 right-0">
-            <li class="hover:font-extrabold hover:bg-white cursor-pointer"><a>Home</a></li>
-            <li class="hover:font-extrabold hover:bg-white cursor-pointer"><a>Services</a></li>
-            <li class="hover:font-extrabold hover:bg-white cursor-pointer"><a>Portfolio</a></li>
-            <li class="hover:font-extrabold hover:bg-white cursor-pointer"><a>Blog</a></li>
-            <li class="hover:font-extrabold hover:bg-white cursor-pointer"><a>Contact Us</a></li>
-          </ul>
-        </div>
-        <div class="hidden lg:flex items-center gap-4">
-          <div><i class="fa-solid fa-magnifying-glass"></i></div>
-          <div><i class="fa-solid fa-cart-shopping"></i></i></div>
-          <div class="bg-primary rounded-full text-center px-1 py-1 font-bold cursor-pointer"><a>Book Consult</a><i class="fa-solid fa-arrow-up rotate-45 h-6 w-6 text-center pt-1 ml-1 bg-black text-white rounded-full"></i></div>
-        </div>
+          <div class="hidden lg:flex items-center gap-4">
+            <div><i class="fa-solid fa-magnifying-glass"></i></div>
+            <div><i class="fa-solid fa-cart-shopping"></i></i></div>
+            <div class="bg-primary rounded-full text-center px-1 py-1 font-bold cursor-pointer"><a>Book Consult</a><i class="fa-solid fa-arrow-up rotate-45 h-6 w-6 text-center pt-1 ml-1 bg-black text-white rounded-full"></i></div>
+          </div>
+      </div>
+  </div>
+  <section class="w-11/12 mx-auto">
+    <div class="w-full flex flex-col items-center justify-center text-center">
+      <div><img src="assets/banner.png" alt=""></div>
+      <div class="text-2xl lg:text-6xl font-bold">A barn house of this design has a striking appearance</div>
+      <div class="text-base lg:w-10/12 text-base py-5"> The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light</div>
+      <button class="bg-secondary rounded-full px-4 py-2 text-xl font-bold text-center"><a>View Details</a><i class="fa-solid fa-arrow-up rotate-45 text-center pt-1 ml-1 bg-primary rounded-full h-7 w-7"></i></button>
     </div>
-  </div>
-<!-- Banner Section -->
-<section class="w-11/12 mx-auto">
-  <div class="w-full flex flex-col items-center justify-center text-center">
-    <div><img src="assets/banner.png" alt=""></div>
-    <div class="text-2xl lg:text-6xl font-bold">A barn house of this design has a striking appearance</div>
-    <div class="text-base lg:w-10/12 text-base py-5"> The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light</div>
-    <button class="bg-secondary rounded-full px-4 py-2 text-xl font-bold text-center"><a>View Details</a><i class="fa-solid fa-arrow-up rotate-45 text-center pt-1 ml-1 bg-primary rounded-full h-7 w-7"></i></button>
-  </div>
-</section>
+  </section>
+</header>
 <!-- Main Section -->
  <!-- About Us -->
 <section class="mt-20 bg-base-200">
@@ -107,7 +109,7 @@
         <div class="bg-base-100 w-11/12 rounded-md my-10 flex items-center gap-4 pl-10">
           <div><img src="assets/commercial.png" alt=""></div>
             <div>
-              <h1 class="font-extrabold">Commercial</h1>
+              <h1 class="font-extrabold">Residential</h1>
               <p>The barn house captivates with its blend<br>of rustic charm and modern.</p>
             </div>
         </div>
@@ -179,7 +181,7 @@
         <img class="w-full h-full object-cover rounded-lg" src="assets/img4.png" alt="">
       </div>
       <div class="w-12/12 px-10 py-5 lg:w-12/12 lg:h-3/5 lg:px-3 lg:py-0">
-        <h1 class="font-extrabold">Commercial</h1>
+        <h1 class="font-extrabold">Residential</h1>
         <p class="">The barn house captivates with its blend of rustic charm and modern. everyone like it.</p>
         <button class="bg-white rounded-full pr-4 py-2 text-xl font-bold"><a>View Details</a><i class="fa-solid fa-arrow-up rotate-45 pt-1 bg-primary rounded-full h-7 w-7"></i></button>
       </div>
@@ -201,9 +203,9 @@
         class="w-11/12 rounded-lg shadow-2xl lg:w-6/12" />
       <div>
         <p class="py-6">
-          Download our project calelog and let us know what you think about it!
+          Download our project catelog and let us know what you think about it!
         </p>
-        <button class="bg-secondary rounded-full px-4 py-2 text-xl text-center font-bold"><a>Download calelog</a><i class="fa-solid fa-arrow-up rotate-45 text-center pt-1 ml-1 bg-primary rounded-full h-7 w-7"></i></button>
+        <button class="bg-secondary rounded-full px-4 py-2 text-xl text-center font-bold"><a>Download catelog</a><i class="fa-solid fa-arrow-up rotate-45 text-center pt-1 ml-1 bg-primary rounded-full h-7 w-7"></i></button>
       </div>
     </div>
   </div>
